@@ -9,7 +9,7 @@ body {
   background: #00917C;
 }
 .container {
-  position: reletive;
+  position: relative;
   width: 1100px;
   display: flex;
   justify-content: center;
@@ -28,6 +28,9 @@ body {
   flex-direction: column;
   box-shadow: 0 5px 202px rgba(0,0,0,0,5);
   transition: 0.3s ease-in-out;
+}
+.container .card:hover {
+  height: 410px;
 }
 .container .card .imgBx {
   position: relative;
@@ -52,14 +55,12 @@ body {
   opacity: 0;
   transition-delay: 0.3s;
 }
-
 .container .card:hover .content {
   visibility: visible;
   opacity: 1;
   margin-top: -40px;
   transition-delay: 0.3s;
 }
-
 
 
 
