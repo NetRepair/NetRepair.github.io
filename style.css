@@ -54,7 +54,7 @@ html, body {
   }
 
 .container .card:hover .content {
-    visibility: visible;
+    visibility: visable;
     transition-duration: 1.3s;
 }
 .container .card:hover {
