@@ -47,8 +47,7 @@ html, body {
   }
   .container .card .content {
     position: relative;
-    margin-top: -140px;
-    padding: 10px 15px;
+    align-self: baseline;
     text-align: center;
     color: #FFF;
     visibility: hidden;
@@ -58,7 +57,6 @@ html, body {
 .container .card:hover .content {
     opacity: 1;
     visibility: visible;
-    transition-duration: 1.3s;
 }
 .container .card:hover {
     height:auto;
