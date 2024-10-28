@@ -10,7 +10,7 @@ body {
 }
 .container {
   position: relative;
-  width: 1100px;
+  width: device-width;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,23 +19,20 @@ body {
 }
 .container .card {
   position: relative;
-  max-width: 300px;
+  max-width: 30%;
   height: 215px;
   background-color: #A5F0C5;
-  margin: 30px 10px;
-  padding: 20px 15px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 5px 202px rgba(0,0,0,0,5);
-  transition: 0.3s ease-in-out;
 }
 .container .card:hover {
   height: 410px;
 }
 .container .card .imgBx {
   position: relative;
-  width: 260px;
-  height: 260px;
+  width: 25%;
+  height: width;
   top: -60px;
   left: 20px;
   z-index: 1;
@@ -53,14 +50,9 @@ body {
   color: #FFF;
   visibility: hidden;
   opacity: 0;
-  transition-delay: 0.3s;
 }
 .container .card:hover .content {
   visibility: visible;
   opacity: 1;
   margin-top: -40px;
-  transition-delay: 0.3s;
 }
-
-
-
