@@ -74,12 +74,12 @@ html, body {
     height: 50px
 }
 .head-container .logoBx {
-    width: auto;
+    width: 100px;
     height: 40px;
     z-index: 1;
 }
 .head-container .logoBx .img {
     max-width: 100%;
-    max-height: 50px;
+    max-height: 40px;
     border-radius: 5px;
 }
