@@ -6,7 +6,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #70C247;
+    background: #F1F1F1;
   }
   .container {
     position: relative;
@@ -22,7 +22,7 @@ html, body {
     position: relative;
     max-width: 250px;
     height: 215px;
-    background-color: #228B22;
+    background-color: #82B7DC;
     display: flex;
     flex-direction: column;
     box-shadow: 0 5px 202px rgba(0,0,0,0,5);
@@ -58,22 +58,4 @@ html, body {
 .container .card:hover {
     height:auto;
     transition-duration: 1.3s;
-}
-.header-container {
-    position: sticky;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    top: 0px;
-    margin-top: 0px;
-    background-color: #115D33;
-    height: 40px;
-    width: auto;
-    align-items: center;
-}
-.header {
-    position: relative;
-    max-height: 100%;
-    border-radius: 4px;
-    felx-direction: column;
 }
