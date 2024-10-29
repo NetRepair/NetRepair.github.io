@@ -3,18 +3,19 @@ html, body {
     height: 100%;
   }
   body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #F1F1F1;
-    margin: 0px;
-    display: grid;
-    grid-template-rows: 50px auto;
-    grid-template-comlumns: auto;
   }
   .container {
-    display: grid;
-    height: auto;
-    justify-content: center;
     position: relative;
     width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 30px;
   }
   .container .card {
@@ -22,9 +23,8 @@ html, body {
     max-width: 250px;
     height: 215px;
     background-color: #82B7DC;
-    display: grid;
-    grid-template-rows: 220px auto auto
-    grid-template-columns: auto;
+    display: flex;
+    flex-direction: column;
     box-shadow: 0 5px 202px rgba(0,0,0,0,5);
     border-radius: 7px;
     transition: 1s ease-in-out;
