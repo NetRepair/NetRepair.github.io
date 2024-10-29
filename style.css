@@ -4,69 +4,60 @@ html, body {
   }
   body {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     background: #F1F1F1;
   }
-
-@media all and (orientation: landscape) {
-   // Styles for landscape mode.
-    
-      .container {
-        position: relative;
-        width: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        padding: 30px;
-      }
-      .container .card {
-        position: relative;
-        max-width: 250px;
-        height: 215px;
-        background-color: #82B7DC;
-        display: flex;
-        flex-direction: column;
-        box-shadow: 0 5px 202px rgba(0,0,0,0,5);
-        border-radius: 7px;
-        transition: 1s ease-in-out;
-        margin-right: 15px;
-        margin-left: 15px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-      }
-      .container .card .imgBx {
-        position: relative;
-        width: 220px;
-        height: 220px;
-        z-index: 1;
-        box-shadow: 0 5px 202px rgba(0,0,0,0,5);
-        margin-top: -75px;
-        padding-left: 6%;
-      }
-      .container .card .imgBx img {
-        max-width: 100%;
-        max-height: 100%;
-        border-radius: 4px;
-      }
-      .container .card .content {
-        position: relative;
-        align-self: baseline;
-        text-align: center;
-        color: #FFF;
-        visibility: hidden;
-        opacity: 0;
-      }
-    .container .card:hover .content {
-        opacity: 1;
-        visibility: visible;
-    }
-    .container .card:hover {
-        height:auto;
-        transition-duration: 1.3s;
-    }
-
+  .container {
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  .container .card {
+    position: relative;
+    max-width: 250px;
+    height: 215px;
+    background-color: #82B7DC;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0,5);
+    border-radius: 7px;
+    transition: 1s ease-in-out;
+  }
+  .container .card .imgBx {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    z-index: 1;
+    box-shadow: 0 5px 202px rgba(0,0,0,0,5);
+    margin-top: -55px;
+    padding-left: 6%;
+    padding: 20px;
+  }
+  .container .card .imgBx img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 4px;
+    position: stretch;
+  }
+  .container .card .content {
+    position: relative;
+    align-self: baseline;
+    text-align: center;
+    color: #FFF;
+    visibility: hidden;
+    opacity: 0;
+  }
+.container .card:hover .content {
+    opacity: 1;
+    visibility: visible;
+}
+.container .card:hover {
+    height:auto;
+    transition-duration: 1.3s;
 }
