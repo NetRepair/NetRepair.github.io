@@ -15,7 +15,7 @@ html, body {
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
-    padding-top:70px;
+    padding-top: 170px;
   }
   .container .card {
     position: relative;
@@ -73,10 +73,9 @@ html, body {
     height: 40px;
 }
 .head-container .logoBx .img {
-    max-height: 50px;
+    object-fit: contain;
     border-radius: 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
