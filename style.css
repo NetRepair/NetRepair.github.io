@@ -64,7 +64,8 @@ html, body {
 }
 .header-container {
     position: sticky;
-    top: 0;
+    top: 0px;
+    margin-top: 0px;
     background-color: #115D33;
     height: 40px;
     width: 100%;
