@@ -62,10 +62,14 @@ html, body {
     height:auto;
     transition-duration: 1.3s;
 }
-.header {
+.header-container {
     position: sticky;
     top: 0;
     background-color: #115D33;
     max-height: 40px;
     align-items: center;
+}
+.header {
+ max-height:100%;
+ border-radius: 4px;
 }
