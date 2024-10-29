@@ -17,7 +17,7 @@ html, body {
         width: auto;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
         padding: 30px;
