@@ -63,11 +63,8 @@ html, body {
     transition-duration: 1.3s;
 }
 .head-container {
-    display: flex;
-    felx-direction: row;
     background-color: #3466AA;
     width: auto;
-    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     height: 50px
