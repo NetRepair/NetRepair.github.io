@@ -20,6 +20,7 @@ html, body {
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
+    padding-top: 170px;
   }
   .container .card {
     position: relative;
