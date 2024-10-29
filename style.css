@@ -62,3 +62,23 @@ html, body {
     height:auto;
     transition-duration: 1.3s;
 }
+.head-container {
+    display: flex;
+    felx-direction: row;
+    background-color: #3466AA;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50px
+}
+.head-container .logoBx {
+    width: auto;
+    height: 40px;
+    z-index: 1;
+}
+.head-container .logoBx .img {
+    max-width: 100%;
+    max-height: 50px;
+    border-radius: 5px;
+}
