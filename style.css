@@ -68,9 +68,11 @@ html, body {
     visibility: visible;
 }
 .container .card:hover {
+    position: relative;
+    bottom: 100px;
     height:auto;
     transition-duration: 1.3s;
-    align-self: flex-start;
+    
 }
 .head-container {
     margin-top: 0px;
