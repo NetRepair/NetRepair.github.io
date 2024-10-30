@@ -67,7 +67,7 @@ html, body {
 }
 .head-container {
     background-color: #3466AA;
-    width: auto;
+    width: 100%
     align-items: center;
     flex-wrap: wrap;
     height: 50px;
@@ -79,7 +79,7 @@ html, body {
     height: 40px;
     z-index: 1;
 }
-.head-container .logoBx .img {
+.head-container .logoBx img {
     max-width: 100%;
     max-height: 40px;
     border-radius: 5px;
