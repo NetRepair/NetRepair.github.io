@@ -6,7 +6,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: felx-start;
+    align-items: flex-start;
     background: #F1F1F1;
     margin: 0px;
   }
@@ -76,7 +76,7 @@ html, body {
     height: 75px;
     align-self: flex-start;
     justify-self: center;
-    justify-content: center;
+    justify-items: center;
 }
 .head-container .head-logoBx {
     position: relative;
