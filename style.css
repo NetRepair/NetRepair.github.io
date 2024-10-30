@@ -75,13 +75,13 @@ html, body {
     align-self: flex-start;
     justify-self: center;
 }
-.head-container .logoBx {
+.head-container .head-logoBx {
     position: relative;
     width: 100px;
     height: 40px;
     z-index: 1;
 }
-.head-container .logoBx img {
+.head-container .head-logoBx img {
     position: relative;
     max-width: 100%;
     max-height: %;
