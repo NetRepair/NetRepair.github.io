@@ -101,6 +101,8 @@ html, body {
     object-fit: contain;
 }
 .consulting {
+    margin-left: auto;
+    margin-top: 20px;
     background-color: #82B7DC;
     position: relative;
     justify-self: center;
@@ -108,13 +110,14 @@ html, body {
     height: auto;
     display: flex;
     flex-direction: row;
-    align-items: center
+    align-items: center;
+    border-radius: 0px 16px;
 }
 .consulting img {
     position: relative;
     margin-left: 10px;
     justify-self: flex-start;
-    padding-left: 20px;
+    padding-left: 10px;
     width: 100px;
     height: 150px;
     object-fit: contain;
