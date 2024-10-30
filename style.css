@@ -70,7 +70,7 @@ html, body {
 .container .card:hover {
     position: relative;
     bottom: 100px;
-    height:auto;
+    height: auto;
     transition-duration: 1.3s;
     
 }
