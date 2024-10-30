@@ -70,6 +70,9 @@ html, body {
 .container .card:hover {
     height:auto;
     transition-duration: 1.3s;
+    .container {
+        padding-top: 70px;
+    }
 }
 .head-container {
     margin-top: 0px;
