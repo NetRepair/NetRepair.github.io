@@ -60,6 +60,7 @@ html, body {
     visibility: hidden;
     opacity: 0;
   }
+.container .card .content .cardheader{}
 .container .card:hover .content {
     opacity: 1;
     visibility: visible;
