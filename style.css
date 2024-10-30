@@ -85,6 +85,7 @@ html, body {
     height: 50px;
     z-index: 1;
     justify-items: center;
+    padding-top: 7px;
 }
 .head-container .head-logoBx img {
     position: relative;
