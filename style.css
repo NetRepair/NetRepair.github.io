@@ -100,3 +100,29 @@ html, body {
     border-radius: 5px;
     object-fit: contain;
 }
+.consulting {
+    position: relative;
+    justify-self: center;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+.consulting img {
+    position: relative;
+    margin-left: 10px;
+    justify-self: flex-start;
+    padding-left: 20px;
+}
+
+.consulting .consulting-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.consulting .consulting-container > p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
