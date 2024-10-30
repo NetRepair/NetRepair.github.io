@@ -101,6 +101,7 @@ html, body {
     object-fit: contain;
 }
 .consulting {
+    background-color: #82B7DC;
     position: relative;
     justify-self: center;
     width: 50%;
@@ -114,6 +115,9 @@ html, body {
     margin-left: 10px;
     justify-self: flex-start;
     padding-left: 20px;
+    width: 100px;
+    height: 150px;
+    object-fit: contain;
 }
 
 .consulting .consulting-container {
@@ -125,4 +129,5 @@ html, body {
 .consulting .consulting-container > p {
     padding-top: 20px;
     padding-bottom: 30px;
+    width: 100px;
 }
