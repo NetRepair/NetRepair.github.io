@@ -61,7 +61,7 @@ html, body {
     opacity: 0;
   }
 .container .card .content .card-heading{
-    opacity:1
+    opacity: 1;
 }
 .container .card:hover .content {
     opacity: 1;
