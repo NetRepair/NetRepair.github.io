@@ -66,6 +66,7 @@ html, body {
     transition-duration: 1.3s;
 }
 .head-container {
+    margin-top: 0px;
     position: relative;
     background-color: #3466AA;
     width: 100%;
