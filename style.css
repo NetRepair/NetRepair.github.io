@@ -130,13 +130,13 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-.consulting .consulting-container p {
+.consulting .consulting-container .paragraph {
     padding-top: 20px;
     padding-bottom: 30px;
     padding-left:10px;
     padding-right: 10px;
     width: 100px;
 }
-.consulting .consuting-container button {
+.consulting .consuting-container .C-button {
     padding-bottom: 10px;
 }
