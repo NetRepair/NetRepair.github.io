@@ -71,15 +71,15 @@ html, body {
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
-    height: 50px;
+    height: 75px;
     align-self: flex-start;
     justify-self: center;
     justify-items: center;
 }
 .head-container .head-logoBx {
     position: relative;
-    width: 100px;
-    height: 40px;
+    width: 400px;
+    height: 50px;
     z-index: 1;
 }
 .head-container .head-logoBx img {
