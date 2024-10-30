@@ -68,21 +68,20 @@ html, body {
 }
 .head-container {
     margin-top: 0px;
+    display: flex;
     position: relative;
     background-color: #3466AA;
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     height: 75px;
-    align-self: flex-start;
-    justify-self: center;
-    justify-items: center;
 }
 .head-container .head-logoBx {
     position: relative;
     width: 400px;
     height: 50px;
     z-index: 1;
+    justify-self: center;
 }
 .head-container .head-logoBx img {
     position: relative;
