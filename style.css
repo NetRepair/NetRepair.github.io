@@ -100,3 +100,24 @@ html, body {
     border-radius: 5px;
     object-fit: contain;
 }
+.consulting-container {
+    display: block;
+    width: 100%;
+    height: 800px;
+}
+.consulting-container  img {
+    object-fit: contain;
+    z-index: -1;
+}
+.consulting-container .consulting-content {
+    
+}
+.consulting-container .consulting-content .consulting-left {
+    
+}
+.consulting-container .consulting-content .consulting-left  img {
+    
+}
+.consulting-container .consulting-content .consulting-right {
+    
+}
