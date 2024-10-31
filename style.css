@@ -4,8 +4,8 @@ html, body {
 	margin: 0px;
 	background: #F1F1F1;
 	font-family: helvetica, sans-serif;
-  }
-  .fakeBody {
+}
+.fakeBody {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -13,8 +13,8 @@ html, body {
 	background: #F1F1F1;
 	margin: 0px;
 	height: 800px;
-  }
-  .container {
+}
+.container {
 	align-self: center;
 	position: relative;
 	width: auto;
@@ -27,8 +27,8 @@ html, body {
 	padding-top: 150px;
 	padding-bottom: 100px;
 	font-family: helvetica, sans-serif;
-  }
-  .container .card {
+}
+.container .card {
 	position: relative;
 	max-width: 250px;
 	height: 215px;
@@ -41,8 +41,8 @@ html, body {
 	margin-left: 40px;
 	margin-right: 40px;
 	font-family: helvetica, sans-serif;
-  }
-  .container .card .imgBx {
+}
+.container .card .imgBx {
 	position: relative;
 	width: 220px;
 	height: 220px;
@@ -50,18 +50,17 @@ html, body {
 	box-shadow: 0 5px 202px rgba(0,0,0,0,5);
 	margin-top: -55px;
 	padding-left: 6%;
-  }
-  .container .card .imgBx img {
+}
+.container .card .imgBx img {
 	max-width: 100%;
 	max-height: 100%;
 	border-radius: 4px;
 	border-width: 3px;
-	position: stretch;
-	border-type: solid;
+	border: solid;
 	border-image: linear-gradient(-45deg, #b62020, #cb2424, #fe2e2e, #fe5757, #fe8181);
 	animation: gradient 5s ease infinite;
-  }
-  .container .card .content {
+}
+.container .card .content {
 	position: relative;
 	align-self: baseline;
 	text-align: center;
@@ -69,7 +68,11 @@ html, body {
 	visibility: hidden;
 	opacity: 0;
 	font-family: helvetica, sans-serif;
-  }
+}
+.container .card .content .card-desc {
+	padding-left: 5px;
+	padding-right: 5px;
+}
 .container .card .content .card-heading{
 	position: relative;
 	align-self: baseline;
