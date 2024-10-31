@@ -134,8 +134,8 @@ html, body {
 	flex-direction: column;
 	width: 50%;
 	height: 800px;
-	justify-content: flex-start;
-	align-items: center;
+	justify-content: center;
+	align-items: flex-start;
 	color: #FFF;
 	list-style: none;
 }
