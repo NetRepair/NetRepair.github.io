@@ -88,7 +88,7 @@ html, body {
 	align-self: baseline;
 	text-align: center;
 	color: #FFF;
-	visibility: hidden;
+	visibility: visible;
 	opacity: 1;
 	font-family: helvetica, sans-serif;
 }
