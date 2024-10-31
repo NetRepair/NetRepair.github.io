@@ -62,7 +62,7 @@ html, body {
 	color: #FFF;
 	visibility: hidden;
 	opacity: 0;
-	  font-family: helvetica, sans-serif;
+	font-family: helvetica, sans-serif;
   }
 .container .card .content .card-heading{
 	position: relative;
@@ -144,8 +144,10 @@ html, body {
 	justify-content: center;
 	align-items: flex-start;
 	color: #FFF;
-	list-style: none;
 	font-family: helvetica, sans-serif;
+}
+.consulting-container .consulting-content .consulting-right ul {
+	list-style-type: '- ';
 }
 .consulting-container .consulting-content .consulting-right h1 {
 	font-size: 70px;
