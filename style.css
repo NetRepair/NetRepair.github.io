@@ -52,7 +52,7 @@ html, body {
 	border-radius: 4px;
 	position: stretch;
   }
-  .container .card .content :not(.card-heading) {
+  .container .card .content {
 	position: relative;
 	align-self: baseline;
 	text-align: center;
@@ -136,10 +136,10 @@ html, body {
 	height: 800px;
 	justify-content: center;
 	align-items: center;
-	colour: #FFF;
+	color: #FFF;
 }
 .consulting-container .consulting-content .consulting-right h1 {
-	font-size: 25px;
+	font-size: 40px;
 	font-weight: 800;
 }
 
