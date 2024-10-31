@@ -109,7 +109,11 @@ html, body {
     background-size: cover;
 }
 .consulting-container .consulting-content {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 800px;
 }
 .consulting-container .consulting-content .consulting-left {
     
