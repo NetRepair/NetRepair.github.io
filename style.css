@@ -117,7 +117,7 @@ html, body {
 }
 .consulting img {
     position: relative;
-    margin-left: 10px;
+    margin-left: 20px;
     justify-self: flex-start;
     padding-left: 10px;
     width: 100px;
@@ -131,13 +131,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.consulting .consulting-container .paragraph {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-left:10px;
-    padding-right: 10px;
-    width: 100px;
+    padding-left: 20px;
 }
 .consulting .consuting-container .C-Button {
     padding-bottom: 10px;
