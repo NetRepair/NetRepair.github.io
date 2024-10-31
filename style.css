@@ -24,14 +24,15 @@ html, body {
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 30px;
-	padding-top: 170px;
+	padding-top: 150px;
+	padding-bottom: 100px;
 	font-family: helvetica, sans-serif;
   }
   .container .card {
 	position: relative;
 	max-width: 250px;
 	height: 215px;
-	background-color: #131313;
+	background-color: #202020;
 	display: flex;
 	flex-direction: column;
 	box-shadow: 0 5px 202px rgba(0,0,0,0,5);
