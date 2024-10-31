@@ -107,7 +107,7 @@ html, body {
     background-color: #82B7DC;
     position: relative;
     justify-self: center;
-    width: 50%;
+    width: 30%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -143,10 +143,13 @@ html, body {
     padding-bottom: 10px;
 }
 .consulting .consulting-container .content-list {
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 30px;
     padding-left:10px;
     padding-right: 10px;
     width: 100px;
     list-style: disc;
+    font-family: "Times New Roman", serif;
+    font-weight: 600;
+    font-size: x-large;
 }
