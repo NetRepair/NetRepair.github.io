@@ -142,3 +142,11 @@ html, body {
 .consulting .consuting-container .C-Button {
     padding-bottom: 10px;
 }
+.consulting .consulting-container .content-list {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left:10px;
+    padding-right: 10px;
+    width: 100px;
+    list-style: disc;
+}
