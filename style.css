@@ -126,17 +126,19 @@ html, body {
     padding-right: 20px;
 }
 
-.consulting .consulting-container {
+.consulting .consulting-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 15px;
 }
-.consulting .consuting-container .C-Button {
+.consulting .consuting-content .C-Button {
     padding-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
-.consulting .consulting-container .content-list {
+.consulting .consulting-content .content-list {
     padding-top: 15px;
     padding-bottom: 30px;
     padding-left:10px;
