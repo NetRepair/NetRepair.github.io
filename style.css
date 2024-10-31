@@ -56,7 +56,7 @@ html, body {
 	max-height: 100%;
 	border-width: 2px;
 	border-style: solid;
-	border-image: linear-gradient(-45deg, #b62020, #cb2424, #fe2e2e, #fe5757, #fe8181);
+	border-color: red;
 	animation: gradient 5s ease infinite;
 }
 .container .card .content {
