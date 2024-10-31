@@ -41,6 +41,7 @@ html, body {
 	margin-right: 40px;
 	font-family: helvetica, sans-serif;
 	border-radius: 7px;
+	animation: gradient 5s ease infinite;
 }
 .container .card::before {
 	  content: "";
