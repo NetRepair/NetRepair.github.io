@@ -122,6 +122,7 @@ html, body {
 }
 
 .bar {
+    display: block;
     /*background: repeating-linear-gradient(90deg, red,green,blue, green, red); */
     /*background-repeat: repeat-x; */
     height: 3px;
