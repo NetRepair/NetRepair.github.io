@@ -12,6 +12,7 @@ html, body {
 	align-items: flex-start;
 	background: #F1F1F1;
 	margin: 0px;
+	height: 800px;
   }
   .container {
 	align-self: center;
@@ -30,7 +31,7 @@ html, body {
 	position: relative;
 	max-width: 250px;
 	height: 215px;
-	background-color: #82B7DC;
+	background-color: #131313;
 	display: flex;
 	flex-direction: column;
 	box-shadow: 0 5px 202px rgba(0,0,0,0,5);
@@ -54,6 +55,9 @@ html, body {
 	max-height: 100%;
 	border-radius: 4px;
 	position: stretch;
+	border-type: solid;
+	border-colour: linear-gradient(-45deg, #b62020, #cb2424, #fe2e2e, #fe5757, #fe8181);
+	animation: gradient 5s ease infinite;
   }
   .container .card .content {
 	position: relative;
