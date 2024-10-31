@@ -134,13 +134,19 @@ html, body {
 	flex-direction: column;
 	width: 50%;
 	height: 800px;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	color: #FFF;
+	list-style: none;
 }
 .consulting-container .consulting-content .consulting-right h1 {
-	font-size: 40px;
+	font-size: 70px;
 	font-weight: 800;
+}
+.consulting-container .consulting-content .consulting-right li {
+	font-size: 30px;
+	font-weight: 550;
+	
 }
 
 .bar {
