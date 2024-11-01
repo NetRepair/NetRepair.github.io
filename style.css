@@ -192,6 +192,7 @@ html, body {
 }
 .Featured {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	height: auto;
 	margin-top: 25px;
@@ -199,7 +200,7 @@ html, body {
 }
 .Featured h1 {
 	font-size: 45px;
-	font-weight: 500;
+	font-weight: 600;
 }
 .Featured h3 {
 	font-size: 30px;
