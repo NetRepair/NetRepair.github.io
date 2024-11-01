@@ -35,14 +35,13 @@ html, body {
 	background-color: #303030;
 	display: flex;
 	flex-direction: column;
-	box-shadow: 0 5px 202px rgba(0,0,0,0,5);
 	transition: 1s ease-in-out;
 	margin-left: 40px;
 	margin-right: 40px;
 	font-family: helvetica, sans-serif;
 	border-radius: 7px;
 	animation: gradient 5s ease infinite;
-	margin-top: 150px;
+	margin-top: 50px;
 }
 .container .card::before {
 	  content: "";
@@ -100,11 +99,9 @@ html, body {
 }
 .container .card:hover {
 	position: relative;
-	bottom: 100px;
 	height: auto;
-	verticle-align: top;
 	font-family: helvetica, sans-serif;
-	margin-top: 50px;
+	margin-bottom: -200px;
 }
 .head-container {
 	margin-top: 0px;
@@ -193,11 +190,12 @@ html, body {
 	background-size: 400% 400%;
 	animation: gradient 7s ease infinite;
 }
-.featured-heading{
-	justify-self: center;
-}
-.featured-slogan{
-	justify-self: center;
+.Featured {
+	display: flex;
+	justify-content: center;
+	height: auto;
+	margin-top: 25px;
+	
 }
 
 @keyframes gradient {
