@@ -98,10 +98,10 @@ html, body {
 	font-family: helvetica, sans-serif;
 }
 .container .card:hover {
-	transform: translate(0px, 70px);
 	position: relative;
 	bottom: 100px;
 	height: auto;
+	verticle-align: top;
 	transition-duration: 1.3s;
 	font-family: helvetica, sans-serif;
 }
