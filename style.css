@@ -8,7 +8,7 @@ html, body {
 .fakeBody {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: flex-start;
 	background: #F1F1F1;
 	margin: 0px;
@@ -194,15 +194,20 @@ html, body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-content: center;
 	height: auto;
 	margin-top: 25px;
 	font-family: helvetica, sans-serif;
 }
 .Featured h1 {
+	justify-self: center;
+	align-self: center;
 	font-size: 45px;
 	font-weight: 600;
 }
 .Featured h3 {
+	justify-self: center;
+	align-self: center;
 	font-size: 30px;
 	font-weight: 350;
 }
