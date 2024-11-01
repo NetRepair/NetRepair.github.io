@@ -193,6 +193,12 @@ html, body {
 	background-size: 400% 400%;
 	animation: gradient 7s ease infinite;
 }
+.featured-heading{
+	justify-self: center;
+}
+.featured-slogan{
+	justify-self: center;
+}
 
 @keyframes gradient {
 	0% {
