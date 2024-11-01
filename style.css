@@ -98,8 +98,8 @@ html, body {
 	font-family: helvetica, sans-serif;
 }
 .container .card:hover {
+	transform: translate(0px, 70px);
 	position: relative;
-	align-self: flex-end;
 	bottom: 100px;
 	height: auto;
 	transition-duration: 1.3s;
