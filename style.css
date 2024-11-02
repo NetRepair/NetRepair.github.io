@@ -219,6 +219,16 @@ html, body {
 	font-weight: 350;
 }
 
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #666666;
+	margin: 0px;
+	height: 800px;
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
