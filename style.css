@@ -24,6 +24,7 @@ html, body {
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 30px;
+	padding-top: 60px;
 	padding-bottom: 100px;
 	font-family: helvetica, sans-serif;
 }
