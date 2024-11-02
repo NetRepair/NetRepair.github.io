@@ -3,7 +3,7 @@ html, body {
 	height: 100%;
 	margin: 0px;
 	background: #F1F1F1;
-	font-family: helvetica, sans-serif;
+	font-family: helvetica, sans-serif; 
 }
 .fakeBody {
 	display: flex;
