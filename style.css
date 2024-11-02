@@ -245,18 +245,24 @@ html, body {
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
+	width: 100px;
+	color: #F1F1F1
 }
 .products{
 	display: flex;
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
+	width: 100px;
+	color: #F1F1F1
 }
 .contact{
 	display: flex;
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
+	width: 100px;
+	color: #F1F1F1
 }
 
 @keyframes gradient {
