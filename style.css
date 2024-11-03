@@ -335,6 +335,9 @@ html, body {
 	color: var(--color);
 	text-shadow: 0 0 30px var(--color);
 }
+.socials-container li:nth-child(1) {
+	--color: 7014fa;
+}
 .socials-container li:nth-child(2) {
 	--color: #14e3fa;
 }
