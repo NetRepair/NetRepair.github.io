@@ -232,24 +232,34 @@ html, body {
 	display: flex;
 	flex-direction: column;
 	align-content: center;
-	justify-content: center;
-	width: 100px;
+	justify-content: space-evenly;
+	width: 300px;
 	color: #F1F1F1
 }
 .products{
 	display: flex;
 	flex-direction: column;
 	align-content: center;
-	justify-content: center;
-	width: 100px;
+	justify-content: space-evenly;
+	width: 300px;
 	color: #F1F1F1
 }
 .contact{
 	display: flex;
 	flex-direction: column;
 	align-content: center;
-	justify-content: center;
-	width: 100px;
+	justify-content: space-evenly;
+	width: 300px;
+	color: #F1F1F1
+}
+
+a:link {
+  	text-decoration: none;
+  	color: #F1F1F1
+}
+
+a:visited {
+  	text-decoration: none;
 	color: #F1F1F1
 }
 
