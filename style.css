@@ -313,7 +313,7 @@ html, body {
 }
 .socials-container li {
 	list-style: none;
-	--color: #ff0050;
+	--color: #4a08c4;
 }
 .socials-container a {
 	display: flex;
@@ -329,20 +329,20 @@ html, body {
 }
 .fa-brands {
 	font-size: 44px;
-	colour: #555;
+	color: #555;
 }
 .socials-container a:hover .fa-brands {
 	color: var(--color);
 	text-shadow: 0 0 30px var(--color);
 }
 .socials-container li:nth-child(2) {
-	--color: #1c7dd5;
+	--color: #14e3fa;
 }
 .socials-container li:nth-child(3) {
-	--color: #d43256;
+	--color: #f75814;
 }
 .socials-container li:nth-child(4) {
-	--color: #4cd137;
+	--color: #e81010;
 }
 
 @keyframes gradient {
