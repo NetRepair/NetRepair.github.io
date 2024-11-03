@@ -47,13 +47,12 @@ html, body {
 }
 .container .card::after, .container .card::before {
 	--angle: 0deg;
-	conent: "";
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	background-image: conic-gradient(from var(--angle), #b62020, #cb2424, #fe2e2e, #fe5757, #fe8181);
-	top: 50%
-	left: 50%
+	top: 50%;
+	left: 50%;
 	translate: -50% -50%;
 	z-index: -1;
 	padding: 3px;
