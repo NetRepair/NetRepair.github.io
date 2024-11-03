@@ -306,13 +306,9 @@ html, body {
   	text-decoration: none;
 	color: #F1F1F1;
 }
-.socials-container {
-	position: sticky;
-	top: 100px;
-}
 .socials-container ul {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	gap: 20px;
 }
 .socials-container li {
