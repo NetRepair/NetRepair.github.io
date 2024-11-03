@@ -235,6 +235,7 @@ html, body {
 	justify-content: space-evenly;
 	width: 300px;
 	color: #F1F1F1
+	flex-wrap: wrap;
 }
 .products-content{
 	display: flex;
@@ -243,6 +244,7 @@ html, body {
 	justify-content: space-evenly;
 	width: 300px;
 	color: #F1F1F1
+	flex-wrap: wrap;
 }
 .contact-content{
 	display: flex;
@@ -251,30 +253,34 @@ html, body {
 	justify-content: space-evenly;
 	width: 300px;
 	color: #F1F1F1
+	flex-wrap: wrap;
 }
 .about{
 	display: flex;
 	flex-direction: column;
-	align-content: center;
+	align-items: center;
 	justify-content: space-evenly;
 	width: 300px;
 	color: #F1F1F1
+	
 }
 .products{
 	display: flex;
 	flex-direction: column;
-	align-content: center;
+	align-items: center;
 	justify-content: space-evenly;
 	width: 300px;
 	color: #F1F1F1
+	
 }
 .contact{
 	display: flex;
 	flex-direction: column;
-	align-content: center;
+	align-items: center;
 	justify-content: space-evenly;
 	width: 300px;
 	color: #F1F1F1
+	
 }
 
 a:link {
