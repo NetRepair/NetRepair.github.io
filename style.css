@@ -236,7 +236,7 @@ html, body {
 	width: 300px;
 	color: #F1F1F1;
 	flex-wrap: wrap;
-	font-weight: 300px;
+	font-weight: 300;
 	font-size: 15px;
 }
 .product-content{
@@ -247,8 +247,8 @@ html, body {
 	width: 300px;
 	color: #F1F1F1;
 	flex-wrap: wrap;
-	font-weight: 500px;
-	font-size: 20px;
+	font-weight: 300;
+	font-size: 15px;
 }
 .contact-content{
 	display: flex;
@@ -258,8 +258,8 @@ html, body {
 	width: 300px;
 	color: #F1F1F1;
 	flex-wrap: wrap;
-	font-weight: 500px;
-	font-size: 20px;
+	font-weight: 300;
+	font-size: 15px;
 }
 .about{
 	display: flex;
@@ -268,9 +268,8 @@ html, body {
 	justify-content: space-evenly;
 	width: 300px;
 	color: #F1F1F1;
-	font-weight: 500px;
+	font-weight: 500;
 	font-size: 20px;
-	
 }
 .products{
 	display: flex;
@@ -279,7 +278,8 @@ html, body {
 	justify-content: space-evenly;
 	width: 300px;
 	color: #F1F1F1;
-	
+	font-weight: 500;
+	font-size: 20px;
 }
 .contact{
 	display: flex;
@@ -288,7 +288,8 @@ html, body {
 	justify-content: space-evenly;
 	width: 300px;
 	color: #F1F1F1;
-	
+	font-weight: 500;
+	font-size: 20px;
 }
 
 a:link {
