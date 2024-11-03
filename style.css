@@ -237,7 +237,7 @@ html, body {
 	color: #F1F1F1
 	flex-wrap: wrap;
 }
-.products-content{
+.product-content{
 	display: flex;
 	flex-direction: column;
 	align-content: center;
@@ -264,7 +264,7 @@ html, body {
 	color: #F1F1F1
 	
 }
-.products{
+.product{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
