@@ -292,14 +292,14 @@ html, body {
 	font-size: 20px;
 }
 
-a:link {
+.footer a:link {
   	text-decoration: none;
   	color: #F1F1F1;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 
-a:visited {
+.footer a:visited {
   	text-decoration: none;
 	color: #F1F1F1;
 }
