@@ -51,7 +51,7 @@ html, body {
 	  inset: 0;
 	  border-radius: 7px; 
 	  padding: 2px; 
-	  background: linear-gradient(-45deg, #990f02, #900603);
+	  background: linear-gradient(-45deg, #b62020, #cb2424, #fe2e2e, #fe5757);
 	  animation: gradient 5s ease infinite;
 	  -webkit-mask: 
 	     linear-gradient(#fff 0 0) content-box, 
