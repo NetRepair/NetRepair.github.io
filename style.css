@@ -12,7 +12,7 @@ html, body {
 	align-items: flex-start;
 	background: #F1F1F1;
 	margin: 0px;
-	height: 700px;
+	height: auto;
 }
 .container {
 	align-self: center;
@@ -214,6 +214,7 @@ html, body {
 	background: #444444;
 	margin: 0px;
 	height: 300px;
+	margin-top: 15px;
 }
 .f-container{
 	display: flex;
