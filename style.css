@@ -8,8 +8,7 @@ html, body {
 	font-family: helvetica, sans-serif; 
 }
 .fakeBody {
-	display: flex;
-	flex-direction: column;
+	display: block;
 	justify-content: center;
 	align-items: center;
 	background: #F1F1F1;
