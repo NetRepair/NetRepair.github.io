@@ -295,6 +295,8 @@ html, body {
 a:link {
   	text-decoration: none;
   	color: #F1F1F1;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 a:visited {
