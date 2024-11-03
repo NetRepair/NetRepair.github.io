@@ -196,13 +196,14 @@ html, body {
 .Featured h1 {
 	justify-self: center;
 	align-self: center;
-	font-size: 45px;
+	font-size: 60px;
 	font-weight: 600;
+	margin-top: 0px;
 }
 .Featured h3 {
 	justify-self: center;
 	align-self: center;
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: 350;
 }
 
