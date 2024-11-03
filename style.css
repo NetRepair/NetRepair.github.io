@@ -236,6 +236,8 @@ html, body {
 	width: 300px;
 	color: #F1F1F1;
 	flex-wrap: wrap;
+	font-weight: 300px;
+	font-size: 15px;
 }
 .product-content{
 	display: flex;
@@ -245,6 +247,8 @@ html, body {
 	width: 300px;
 	color: #F1F1F1;
 	flex-wrap: wrap;
+	font-weight: 500px;
+	font-size: 20px;
 }
 .contact-content{
 	display: flex;
@@ -254,6 +258,8 @@ html, body {
 	width: 300px;
 	color: #F1F1F1;
 	flex-wrap: wrap;
+	font-weight: 500px;
+	font-size: 20px;
 }
 .about{
 	display: flex;
@@ -261,7 +267,9 @@ html, body {
 	align-items: center;
 	justify-content: space-evenly;
 	width: 300px;
-	color: #F1F1F1
+	color: #F1F1F1;
+	font-weight: 500px;
+	font-size: 20px;
 	
 }
 .products{
@@ -270,7 +278,7 @@ html, body {
 	align-items: center;
 	justify-content: space-evenly;
 	width: 300px;
-	color: #F1F1F1
+	color: #F1F1F1;
 	
 }
 .contact{
@@ -279,18 +287,18 @@ html, body {
 	align-items: center;
 	justify-content: space-evenly;
 	width: 300px;
-	color: #F1F1F1
+	color: #F1F1F1;
 	
 }
 
 a:link {
   	text-decoration: none;
-  	color: #F1F1F1
+  	color: #F1F1F1;
 }
 
 a:visited {
   	text-decoration: none;
-	color: #F1F1F1
+	color: #F1F1F1;
 }
 
 @keyframes gradient {
