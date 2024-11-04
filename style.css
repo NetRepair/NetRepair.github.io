@@ -48,11 +48,9 @@ html, body {
 .container .card::before {
 	  content: "";
 	  position: absolute;
-	  inset: 0;
 	  border-radius: 7px; 
 	  padding: 2px; 
-	  conic-gradient(from var(--angle), #7b4397, #dc2430, #7b4397);
-	  animation: gradient 5s ease infinite;
+	  background-image: conic-gradient(from var(--angle), #7b4397, #dc2430, #7b4397);
 }
 .container .card .imgBx {
 	position: relative;
