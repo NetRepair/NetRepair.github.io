@@ -57,7 +57,7 @@ html, body {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background-image: conic-gradient(from var(--angle), #b62020, #cb2424, #fe2e2e, #fe5757);
+	background-image: conic-gradient(from var(--angle), #7b4397, #dc2430);
 	top: 50%;
 	left: 50%;
 	translate: -50% -50%;
