@@ -63,6 +63,7 @@ html, body {
 	z-index: -1;
 	padding: 4px; 
 	border-radius: 7px; 
+	background-image: conic-gradient(from var(--angle), #7b4397, #dc2430, #7b4397);
 	animation: spin 5s linear infinite;
 }
 .container .card .imgBx {
