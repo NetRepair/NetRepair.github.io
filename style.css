@@ -55,19 +55,16 @@ html, body {
  .container .card::before {
 	content: "";
 	position: absolute;
-	inset: 0;
+	height: 100%;
+	width: 100%;
+	background-image: conic-gradient(from var(--angle), #b62020, #cb2424, #fe2e2e, #fe5757);
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+	z-index: -1;
 	border-radius: 7px; 
-	padding: 2px; 
-	background: conic-gradient(from var(--angle), #b62020, #cb2424, #fe2e2e, #fe5757);
+	padding: 4px; 
 	animation: spin 5s linear infinite;
-	z-index: -1
-	 /*
-	  -webkit-mask: 
-	     conic-gradient(#fff 0 0) content-box, 
-	     conic-gradient(#fff 0 0);
-	  -webkit-mask-composite: xor;
-	          mask-composite: exclude; 
-	  */
 }
 .container .card .imgBx {
 	position: relative;
