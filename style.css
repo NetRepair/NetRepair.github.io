@@ -53,13 +53,14 @@ html, body {
 }
 
  .container .card::before {
-	  content: "";
-	  position: absolute;
-	  inset: 0;
-	  border-radius: 7px; 
-	  padding: 2px; 
-	  background: conic-gradient(from var(--angle), #b62020, #cb2424, #fe2e2e, #fe5757);
-	  animation: spin 5s linear infinite;
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: 7px; 
+	padding: 2px; 
+	background: conic-gradient(from var(--angle), #b62020, #cb2424, #fe2e2e, #fe5757);
+	animation: spin 5s linear infinite;
+	z-index: -1
 	 /*
 	  -webkit-mask: 
 	     conic-gradient(#fff 0 0) content-box, 
