@@ -93,7 +93,6 @@ html, body {
 	visibility: hidden;
 	opacity: 0;
 	font-family: helvetica, sans-serif;
-	overflow: hidden;
 }
 .container .card .content .card-desc {
 	padding-left: 5px;
