@@ -108,7 +108,8 @@ html, body {
 	margin-right: auto;
 }
 .price-container .price-s {
-	text-decoration: line-through;
+	text-decoration: underline;
+  	text-underline-offset: -40%;
 	color: red;
 	font-style: italic;
 	padding-right: 5px;
