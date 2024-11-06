@@ -103,6 +103,8 @@ html, body {
 .container .card .content .card-desc {
 	padding-left: 5px;
 	padding-right: 5px;
+	list-style-type:none;
+	margin: 0;
 }
 .container .card:hover .content-h {
 	opacity: 1;
