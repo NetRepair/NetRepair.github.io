@@ -108,7 +108,7 @@ html, body {
 	margin-right: auto;
 }
 .price-container .price-s {
-	text-decoration: strike-through;
+	text-decoration: line-through;
 	color: red;
 	font-style: italic;
 	padding-right: 5px;
