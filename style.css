@@ -43,6 +43,9 @@ html, body {
 	animation: gradient 5s ease infinite;
 	transition: 1.1s ease-in-out;
 }
+.container .card .card-heading {
+	margin-bottom: 0px;
+}
 
 @property --angle{
 	syntax: "<angle>";
