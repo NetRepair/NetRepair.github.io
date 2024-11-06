@@ -105,6 +105,8 @@ html, body {
 	padding-right: 5px;
 	list-style-type:none;
 	margin: 0;
+	padding-top: 10px;
+	font-weight: 700px;
 }
 .container .card:hover .content-h {
 	opacity: 1;
