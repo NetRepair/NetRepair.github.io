@@ -109,6 +109,8 @@ html, body {
 	font-size: 15px;
 	margin-left: auto;
 	margin-right: auto;
+	align-items: center;
+	justify-content: center;
 }
 .price-container .price-s {
 	text-decoration: underline;
@@ -124,10 +126,11 @@ html, body {
 .container .card .content .card-desc {
 	padding-left: 5px;
 	padding-right: 5px;
-	list-style-type:none;
+	list-style-type: none;
 	margin: 0;
-	padding-top: 10px;
-	font-weight: 700px;
+	padding-top: 20px;
+	font-weight: 800;
+	font-size: 16px;
 }
 .container .card:hover .content-h {
 	opacity: 1;
