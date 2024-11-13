@@ -421,7 +421,7 @@ html, body {
 .button:active {
   transform: scale(0.95);
 }
-.conulting-button {
+.cons,  ulting-button {
   margin: 10px;
   padding: 15px 30px;
   text-align: center;
