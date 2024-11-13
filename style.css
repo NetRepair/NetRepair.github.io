@@ -394,8 +394,7 @@ html, body {
 	transition: all 0.2s ease-in-out;
 }
 .prebuilt-button {
-	margin: 30px;
-	margin-left: 130px;
+	margin: 10px;
 	margin-bottom: 25px;
 	padding: 20px 40px;
 	font-size: 20px;
@@ -424,6 +423,8 @@ html, body {
   	transform: scale(0.95);
 }
 .consulting-button {
+	    margin: 30px;
+	    margin-left: 130px;
 	    justify-self: center;
 	    margin: 10px;
 	    padding: 15px 30px;
