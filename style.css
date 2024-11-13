@@ -32,12 +32,14 @@ html, body {
 .container .card {
 	position: relative;
 	width: 250px;
-	height: 260px;
+	height: 525px;
 	background-color: #303030;
 	display: flex;
 	flex-direction: column;
 	margin-left: 40px;
 	margin-right: 40px;
+	margin-bottom: -310px;
+	padding: 15px;
 	font-family: helvetica, sans-serif;
 	border-radius: 7px;
 	animation: gradient 5s ease infinite;
@@ -99,8 +101,8 @@ html, body {
 	align-self: baseline;
 	text-align: center;
 	color: #F1F1F1;
-	visibility: hidden;
-	opacity: 0;
+	opacity: 1;
+	visibility: visible;
 	font-family: helvetica, sans-serif;
 }
 .price-container {
@@ -132,19 +134,6 @@ html, body {
 	padding-top: 20px;
 	font-weight: 800;
 	font-size: 16px;
-}
-.container .card:hover .content-h {
-	opacity: 1;
-	visibility: visible;
-	font-family: helvetica, sans-serif;
-	transition: 1.2s ease-in-out;
-}
-.container .card:hover {
-	position: relative;
-	height: 525px;
-	font-family: helvetica, sans-serif;
-	margin-bottom: -310px;
-	padding: 15px;
 }
 .head-container {
 	margin-top: 0px;
