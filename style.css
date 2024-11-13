@@ -394,7 +394,8 @@ html, body {
 	transition: all 0.2s ease-in-out;
 }
 .prebuilt-button {
-	margin: 10px;
+	margin: 30px;
+	margin-left: 130px;
 	margin-bottom: 25px;
 	padding: 20px 40px;
 	font-size: 20px;
@@ -451,7 +452,8 @@ html, body {
 	  transform: scale(0.95);
 }
 .purchase-button {
-	  margin: 10px;
+	  margin: 0px;
+	  justify-self: center;
 	  padding: 7px 15px;
 	  text-align: center;
 	  text-transform: uppercase;
