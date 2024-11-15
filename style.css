@@ -11,21 +11,21 @@ html, body {
 }
 
 .shop-container {
-	display: felx;
+	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-content: center;
 	margin: 0px;
 	height: auto;
-	felx-wrap: wrap;
+	flex-wrap: wrap;
 }
 .shop-card {
 	height: 600px;
 	width: 450px;
 	display: flex;
-	felx-direction: column;
+	flex-direction: column;
 	align-content: center;
-	justify-content: felx-start;
+	justify-content: flex-start;
 	margin: 5px;
 }
 .img-container {
@@ -42,8 +42,9 @@ html, body {
 .img-container img {
 	max-width: 100%;
 	max-height: 100%;
+	z-index: 2;
 }
-.product-conent {
+.product-content {
 	background-color: #f6f8f8;
 	width: 450px;
 	height: 350px;
