@@ -64,6 +64,8 @@ html, body {
 	width: 350px;
 	height: 350px;
 	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .head-container {
 	margin-top: 0px;
