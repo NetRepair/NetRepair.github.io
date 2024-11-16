@@ -44,6 +44,7 @@ html, body {
 	background-color: #f1f3f5;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	justify-content: center;
 }
 .img-box {
 	position: relative;
@@ -51,7 +52,8 @@ html, body {
 	height: 250px;
 	z-index: 1;
 	justify-self: center;
-	align-self: center
+	align-self: center;
+	background-color: #dadfe5;
 }
 .img-container .img-box img {
 	max-width: 100%;
