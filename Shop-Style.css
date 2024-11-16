@@ -53,11 +53,10 @@ html, body {
 	justify-self: center;
 	align-self: center
 }
-.img-container img-box img {
+.img-container .img-box img {
 	max-width: 100%;
 	max-height: 100%;
 	z-index: 2;
-	object-fit: contain;
 }
 .product-content {
 	background-color: #f6f8f8;
