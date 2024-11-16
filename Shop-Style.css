@@ -1,4 +1,11 @@
 @import url("https://use.frontawsome.com/releases/v6.5.1/css/all.css"); 
+
+@property --angle{
+	syntax: "<angle>";
+	initial-value: 0deg;
+	inherits: false;
+}
+
 html, a {
 	text-decoration: none;
 }
@@ -49,7 +56,152 @@ html, body {
 	height: 350px;
 	margin: 0px;
 }
+.head-container {
+	margin-top: 0px;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	background-color: #000;
+	width: 100%;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 110px;
+	justify-content: center;
+}
+.header-links {
+	display: flex;
+	flex-direction: row;
+	width: 500px;
+	height: 50px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.header-links a {
+	color: #F1F1F1;
+	font-family: helvetica, sans-serif;
+	font-size: 23px;
+	font-weight: 700;
+	text-decoration: none;
+	tranistion: 0.3s;
+}
+.header-links a:hover {
+	color: #dc2430;
+}
+.head-container .head-logoBx {
+	position: relative;
+	width: 400px;
+	height: 50px;
+	z-index: 1;
+	justify-items: center;
+	align-items: center;
+}
+.head-container .head-logoBx img {
+	position: relative;
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 5px;
+	object-fit: contain;
+}
+.bar {
+	display: block;
+	height: 3px;
+	width: 100%;
+	position: absolute;
+	background: linear-gradient(-45deg, #b62020, #cb2424, #fe2e2e, #fe5757, #fe8181);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #444444;
+	margin: 0px;
+	height: 200px;
+	margin-top: 15px;
+}
+.f-container{
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+	width: 100%;
+	margin-top: auto;
+	margin-bottom: auto;
+	align-content: center;
+	justify-content: space-evenly;
 
-
-
-
+}
+.about-content{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-evenly;
+	width: 300px;
+	color: #F1F1F1;
+	flex-wrap: wrap;
+	font-weight: 300;
+	font-size: 15px;
+}
+.product-content{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-evenly;
+	width: 300px;
+	color: #F1F1F1;
+	flex-wrap: wrap;
+	font-weight: 300;
+	font-size: 15px;
+}
+.contact-content{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-evenly;
+	width: 300px;
+	color: #F1F1F1;
+	flex-wrap: wrap;
+	font-weight: 300;
+	font-size: 15px;
+}
+.about{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 300px;
+	color: #F1F1F1;
+	font-weight: 500;
+	font-size: 20px;
+}
+.products{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 300px;
+	color: #F1F1F1;
+	font-weight: 500;
+	font-size: 20px;
+}
+.contact{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 300px;
+	color: #F1F1F1;
+	font-weight: 500;
+	font-size: 20px;
+}
+.footer a:link {
+  	text-decoration: none;
+  	color: #F1F1F1;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.footer a:visited {
+  	text-decoration: none;
+	color: #F1F1F1;
+}
