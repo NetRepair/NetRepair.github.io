@@ -46,6 +46,8 @@ html, body {
 	height: auto;
 	flex-wrap: wrap;
 	gap: 1em;
+	width: 1600px;
+	justify-self: center;
 }
 .shop-card {
 	height: 600px;
