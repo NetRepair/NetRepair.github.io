@@ -40,11 +40,12 @@ html, body {
 .shop-container {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-content: center;
 	margin: 0px;
 	height: auto;
 	flex-wrap: wrap;
+	gap: 1em;
 }
 .shop-card {
 	height: 600px;
