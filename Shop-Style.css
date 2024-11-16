@@ -167,7 +167,7 @@ html, body {
 .contact-content{
 	display: flex;
 	flex-direction: column;
-	align-content: center;
+	align-content: center; 
 	justify-content: space-evenly;
 	width: 300px;
 	color: #F1F1F1;
