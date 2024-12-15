@@ -85,6 +85,9 @@ html, body {
 	align-self: center;
 }
 .colour-line1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: relative;
 	width: inherit;
 	min-height: 60px;
@@ -93,6 +96,9 @@ html, body {
 	border-top-right-radius: inherit;
 }
 .colour-line2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: relative;
 	width: inherit;
 	min-height: 60px;
@@ -101,6 +107,9 @@ html, body {
 	border-top-right-radius: inherit;
 }
 .colour-line3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: relative;
 	width: inherit;
 	min-height: 60px;
@@ -112,7 +121,7 @@ html, body {
 	margin: 0px;
 	font-size: 30px;
 	font-weight: 600;
-	colour: white;
+	color: white;
 }
 .img-container .img-box img {
 	max-width: 100%;
