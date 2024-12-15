@@ -108,6 +108,12 @@ html, body {
 	border-top-left-radius: inherit;
 	border-top-right-radius: inherit;
 }
+.colour-title {
+	margin: 0px;
+	font-size: 30px;
+	font-weight: 600;
+	colour: white;
+}
 .img-container .img-box img {
 	max-width: 100%;
 	max-height: 100%;
