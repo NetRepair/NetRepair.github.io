@@ -72,15 +72,6 @@ html, body {
 	padding: 4px; 
 	border-radius: 20px; 
 }
-.shop-card:after:nth-child(1) {
-	background-colour: red;
-}
-.shop-card:after:nth-child(2) {
-	background-colour: green;
-}
-.shop-card:after:nth-child(3) {
-	background-colour: orange;
-}
 .img-container {
 	display: flex;
 	flex-direction: column;
