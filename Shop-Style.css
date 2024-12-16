@@ -1,5 +1,5 @@
 @import url("https://use.frontawsome.com/releases/v6.5.1/css/all.css"); 
-
+ 
 @property --angle{
 	syntax: "<angle>";
 	initial-value: 0deg;
