@@ -157,6 +157,9 @@ html, body {
 	z-index: 2;
 }
 .product-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color: #f1f3f5;
 	width: 344px;
 	height: 288px;
@@ -165,7 +168,9 @@ html, body {
 	margin-right: auto;
 	border-bottom-left-radius: 18px;
 	border-bottom-right-radius: 18px;
-	
+}
+.product-text {
+	color: black;
 }
 .head-container {
 	margin-top: 0px;
