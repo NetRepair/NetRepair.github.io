@@ -49,7 +49,7 @@ html, body {
 	width: 1600px;
 	justify-self: center;
 }
-.shop-card {
+.shop-card3 {
 	height: 600px;
 	width: 350px;
 	display: flex;
@@ -59,12 +59,37 @@ html, body {
 	margin: 5px;
 	border-radius: 20px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: orange;
+}
+.shop-card2 {
+	height: 600px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: flex-start;
+	margin: 5px;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: green
+}
+.shop-card1 {
+	height: 600px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: flex-start;
+	margin: 5px;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: red
 }
 .img-container {
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	width: 350px;
+	width: 344px;
 	height: 310px;
 	z-index: 0;
 	margin-left: auto;
@@ -130,13 +155,13 @@ html, body {
 }
 .product-content {
 	background-color: #f6f8f8;
-	width: 350px;
-	height: 350px;
+	width: 344px;
+	height: 288px;
 	margin: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 18px;
+	border-bottom-right-radius: 18px;
 	
 }
 .head-container {
