@@ -171,6 +171,14 @@ html, body {
 }
 .product-text {
 	color: black;
+   	margin: 0px;
+   	max-width: 300px;
+  	font-size: 28;
+  	font-weight: 600;
+ 	font-family: Georgia, serif;
+ 	text-align: center;
+  	translate: 0 -30px;
+}
 }
 .head-container {
 	margin-top: 0px;
