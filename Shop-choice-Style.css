@@ -50,7 +50,7 @@ html, body {
 	justify-self: center;
 }
 .shop-card3 {
-	height: 600px;
+	height: 450px;
 	width: 350px;
 	display: flex;
 	flex-direction: column;
@@ -59,10 +59,10 @@ html, body {
 	margin: 5px;
 	border-radius: 20px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	background-color: orange;
+	background-color: #d40000;
 }
 .shop-card2 {
-	height: 600px;
+	height: 450px;
 	width: 350px;
 	display: flex;
 	flex-direction: column;
@@ -71,10 +71,10 @@ html, body {
 	margin: 5px;
 	border-radius: 20px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	background-color: green
+	background-color: #d40000;
 }
 .shop-card1 {
-	height: 600px;
+	height: 450px;
 	width: 350px;
 	display: flex;
 	flex-direction: column;
@@ -83,7 +83,7 @@ html, body {
 	margin: 5px;
 	border-radius: 20px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	background-color: red
+	background-color: #d40000;
 }
 .img-container {
 	display: flex;
@@ -119,7 +119,7 @@ html, body {
 	position: relative;
 	width: inherit;
 	min-height: 60px;
-	background-color: red;
+	background-color: #d40000;
 	border-top-left-radius: inherit;
 	border-top-right-radius: inherit;
 }
@@ -130,7 +130,7 @@ html, body {
 	position: relative;
 	width: inherit;
 	min-height: 60px;
-	background-color: green;
+	background-color: #d40000;
 	border-top-left-radius: inherit;
 	border-top-right-radius: inherit;
 }
@@ -141,7 +141,7 @@ html, body {
 	position: relative;
 	width: inherit;
 	min-height: 60px;
-	background-color: orange;
+	background-color: #d40000;
 	border-top-left-radius: inherit;
 	border-top-right-radius: inherit;
 }
@@ -162,7 +162,7 @@ html, body {
 	justify-content: center;
 	background-color: #f1f3f5;
 	width: 344px;
-	height: 288px;
+	height: 137px;
 	margin: 0px;
 	margin-left: auto;
 	margin-right: auto;
