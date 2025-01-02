@@ -1,18 +1,21 @@
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #1a1a1a; /* Black background */
+    color: #fff;
 }
 
+/* Header Styling */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #000;
+    color: #e53935; /* Red for the text */
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -30,10 +33,6 @@ header nav ul {
     gap: 20px;
 }
 
-header nav ul li {
-    display: inline;
-}
-
 header nav ul li a {
     color: #fff;
     text-decoration: none;
@@ -42,9 +41,10 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #e53935; /* Red color on hover */
+    color: #e53935; /* Red hover effect */
 }
 
+/* Product Container Styling */
 .product-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -52,40 +52,42 @@ header nav ul li a:hover {
     padding: 40px;
 }
 
+/* Product Card Styling */
 .product {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #333; /* Dark grey */
+    border: 1px solid #444; /* Slightly lighter border */
     border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
     text-align: center;
     padding: 20px;
-}
-
-.product:hover {
-    transform: translateY(-10px);
 }
 
 .product img {
     width: 100%;
     height: auto;
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .product h3 {
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 1.5rem;
-    color: #333;
+    color: #fff;
 }
 
-.product p {
+.product .description {
+    font-size: 1rem;
+    color: #bbb; /* Light grey for the description */
+    margin: 10px 0;
+}
+
+.product .price {
     font-size: 1.2rem;
     color: #e53935; /* Red for price */
     margin: 10px 0;
 }
 
 .product button {
-    background-color: #e53935; /* Red background */
+    background-color: #e53935; /* Red button */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -96,13 +98,14 @@ header nav ul li a:hover {
 }
 
 .product button:hover {
-    background-color: #c62828; /* Darker red on hover */
+    background-color: #c62828; /* Darker red */
 }
 
+/* Footer Styling */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     margin-top: 40px;
 }
