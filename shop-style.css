@@ -4,7 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.bar {
+	display: block;
+	height: 3px;
+	width: 100%;
+	position: absolute;
+	background: linear-gradient(-45deg, #b62020, #cb2424, #fe2e2e, #fe5757, #fe8181);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+}
 .head-container {
 	margin-top: 0px;
 	display: flex;
